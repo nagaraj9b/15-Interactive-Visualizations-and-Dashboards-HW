@@ -48,7 +48,7 @@ function buildMetadata(sample) {
       }
     };
 
-    Plotly.plot("bubble",data,layout);
+    Plotly.newPlot("bubble",data,layout);
 
   })
 // @TODO: Build a pie Chart using the sample data
@@ -72,7 +72,7 @@ function buildMetadata(sample) {
       };
       
       
-      Plotly.plot("pie", data, layout);
+      Plotly.newPlot("pie", data, layout);
       
       
     })
